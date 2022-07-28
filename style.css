@@ -1,162 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-*{
-
-    padding-left: 20px;
-    padding-right: 20px;
+* {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.navbar-container {
+  display: flex;
 
-.navbar-container{
-    display: flex;
-    
-    flex-direction: row;
-    justify-content: space-between;
-   
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.list-item {
+  padding: 35px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 350;
+  font-size: 20px;
+}
+.list-item:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 40px;
+}
+.search-icon {
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+.nav-button {
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+  color: #1f1f1f;
+  font-size: 20px;
+  border-width: 2px;
+  border-color: #111111;
+}
+.navbar-container div img {
+  height: 50px;
+  width: 130px;
 
+  position: relative;
+  top: 30px;
 }
-.list-item{
-    padding: 35px;
-    font-family: 'Orbitron',sans-serif;
-    font-weight: 350;
-    font-size: 20px;
-
+.hero-container {
+  display: flex;
+  flex-direction: row;
 }
-.list-item:hover{
-    font-weight: bold;
-    text-decoration: underline;
-}
-.button-group{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-top: 40px;
-}
-.search-icon{
-position: relative;
-top: 10px;
-left: 40px;
-}
-.nav-button{
-    width: 160px;
-    height: 45px;
-    border-radius: 10px;
-    color: #1f1f1f;
-    font-size: 20px;
-    border-width: 2px;
-    border-color: #111111;
-}
-.navbar-container div img{
-    height: 50px;
-    width: 130px;
-
-    position: relative;
-    top:30px;
-}
-.hero-container{
-    display: flex;
-    flex-direction: row;
-}
-.square{
-    display: flex;
-    z-index:-1;
-    align-items: flex-end;
-   height: 800px;
-   width: 900px;
-   margin-left: 150px;
+.square {
+  display: flex;
+  z-index: -1;
+  align-items: flex-end;
+  height: 800px;
+  width: 900px;
+  margin-left: 150px;
 }
 
-[alt="person-hero-iamge"]{
-    position: absolute;
-    left: 100px;
-    bottom: 130px;
-    height: 600px;
-    width: 500px;
+[alt="person-hero-iamge"] {
+  position: absolute;
+  /* left: 100px;
+    bottom: 130px; */
+  left: 6%;
+  bottom: 13%;
+  height: 600px;
+  width: 500px;
 }
 
-.hero-container-right{
-   margin-top: 120px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
+.hero-container-right {
+  margin-top: 120px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.star{
-    position: absolute;
-    right:80px;
-    top: 150px;
-   
- }
-.globe{
-    position: absolute;
-    right:700px;
-    
+.star {
+  position: absolute;
+  right: 80px;
+  top: 150px;
+}
+.globe {
+  position: absolute;
+  right: 700px;
 }
 
-
-.hero-heading{
-     font-family: 'Orbitron',sans-serif;
-     font-size: 60px;
-
+.hero-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
 }
-.hero-description{
-
-    color: #758283;
-    padding-left: 150px;
-    padding-right: 150px;
+.hero-description {
+  color: #758283;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-.button-email{
-
-    height: 35px;
-    width: 180px;
-    font-family: 'Orbitron',sans-serif;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: #111111;
-    color: #758283;
-
+.button-email {
+  height: 35px;
+  width: 180px;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #111111;
+  color: #758283;
 }
-.button-join{
-    height: 35px;
-    width: 120px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: #111111;
-    background-color: #111111;
-    color: #ffffff;
-    font-family: 'Orbitron',sans-serif;
-    margin-left: 20px;
-
-
+.button-join {
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #111111;
+  background-color: #111111;
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 20px;
 }
 
-div .button-email, .button-join{
-    margin-top: 130px;
-    margin-bottom: 130px;
+div .button-email,
+.button-join {
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
-.contact-heading{
-    color: #758283;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
+.contact-heading {
+  color: #758283;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
 }
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
 }
-.icons span{
-    width: 50px;
+.icons span {
+  width: 50px;
 }
