@@ -1,11 +1,11 @@
 # By Mohd Faiz Khan
 
-# whats-trend-Landing-Page
+# Whats-trend-Landing-Page
 
-# Time Taken for completing Project
+# Time Taken for completing this Project
   - 4-5hours
  
-# What i learn
+# What I learn- 
  
  ## - When i am making this website I learn so much, specially positioning and z-index.
  
