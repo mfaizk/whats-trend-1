@@ -5,7 +5,9 @@
 # Time Taken for completing Project
   - 4-5hours
  
- ## When i am making this website I learn so much, specially positioning and z-index.
+# What i learn
+ 
+ ## - When i am making this website I learn so much, specially positioning and z-index.
  
  
-  ![https://github.com/mfaizk/whats-trend-1/blob/master/thumbnail.png?raw=true](Website-demo-pic)
+  ![Website-demo-pic](https://github.com/mfaizk/whats-trend-1/blob/master/thumbnail.png?raw=true)
