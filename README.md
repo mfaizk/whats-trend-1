@@ -1,6 +1,7 @@
 # By Mohd Faiz Khan
 
-# Whats-trend-Landing-Page
+# Title
+  > - ## Whats-trend-Landing-Page
 
 # Time Taken for completing this Project
   - 4-5hours
