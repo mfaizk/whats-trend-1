@@ -70,10 +70,10 @@
 
 [alt="person-hero-iamge"] {
   position: absolute;
-  /* left: 100px;
-    bottom: 130px; */
-  left: 6%;
-  bottom: 13%;
+  left: 100px;
+  bottom: 130px;
+  /* left: 6%;
+  bottom: 13%; */
   height: 600px;
   width: 500px;
 }
