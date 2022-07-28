@@ -11,3 +11,7 @@
  
  
   ![Website-demo-pic](https://github.com/mfaizk/whats-trend-1/blob/master/thumbnail.png?raw=true)
+
+
+
+> [Visit this website](https://whats-trend.netlify.app/)
