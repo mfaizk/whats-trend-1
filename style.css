@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-* {
+/* * {
   padding-left: 20px;
   padding-right: 20px;
+} */
+
+.container {
+  /* background-color: magenta; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-container {
@@ -58,52 +66,89 @@
 .hero-container {
   display: flex;
   flex-direction: row;
+  /* background-color: orange; */
+  /* flex-wrap: wrap; */
 }
-.square {
+/* .square {
+  position: absolute;
+  z-index: -1; */
+
+/* background-color: magenta; */
+/* bottom: 60px;
+} */
+.hero-conatiner-left {
+  /* background-color: rgba(255, 166, 0, 0.349); */
+  width: 50%;
   display: flex;
-  z-index: -1;
-  align-items: flex-end;
-  height: 800px;
-  width: 900px;
-  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
 }
+
+/* [alt="person-hero-iamge"] {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  right: 90px;
+  bottom: 10px;
+} */
 
 [alt="person-hero-iamge"] {
   position: absolute;
-  left: 5vw;
-  bottom: 14vh;
-  /* left: 6%;
-  bottom: 13%; */
-  height: 600px;
-  width: 500px;
+  top: 190px;
+  left: 120px;
+  height: 30rem;
+  width: 25rem;
+}
+.square {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  height: 30rem;
+  width: 25rem;
 }
 
 .hero-container-right {
   margin-top: 120px;
   height: 70vh;
   display: flex;
+  width: 50%;
   flex-direction: column;
   align-items: center;
+  /* background-color: magenta; */
 }
 
-.star {
-  position: absolute;
-  right: 80px;
-  top: 150px;
+.star-globe {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.globe {
-  position: absolute;
-  right: 700px;
+.star {
+  position: relative;
+  bottom: 50px;
 }
 
 .hero-heading {
   font-family: "Orbitron", sans-serif;
   font-size: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .hero-description {
   color: #758283;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.mail-button-container {
+  /* background-color: blue; */
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .button-email {
@@ -114,6 +159,7 @@
   border-width: 1px;
   border-color: #111111;
   color: #758283;
+  font-size: small;
 }
 .button-join {
   height: 35px;
@@ -124,7 +170,7 @@
   background-color: #111111;
   color: #ffffff;
   font-family: "Orbitron", sans-serif;
-  margin-left: 20px;
+  font-size: small;
 }
 
 div .button-email,
@@ -148,4 +194,230 @@ div .button-email,
 }
 .icons span {
   width: 50px;
+}
+
+@media screen and (max-width: 1134px) and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-conatiner-left {
+    /* background-color: rgba(255, 166, 0, 0.432); */
+    height: 40rem;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  [alt="person-hero-iamge"] {
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    height: 20rem;
+    width: 17rem;
+  }
+  .square {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    height: 20rem;
+    width: 17rem;
+  }
+  .square img {
+    height: 20rem;
+    width: 17rem;
+  }
+  .list {
+    overflow-y: scroll;
+  }
+  .hero-container-right {
+    /* background-color: magenta; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .star-globe {
+    display: none;
+  }
+  .hero-description {
+    /* background-color: pink; */
+    width: 100%;
+  }
+  .hero-heading {
+    width: 100%;
+    /* background-color: magenta; */
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .navbar-container {
+    /* background-color: orange; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  [alt="brand-logo"] {
+    height: 100%;
+    /* background-color: red; */
+  }
+  .nav-logo-container {
+    height: 100%;
+    /* background-color: blue; */
+  }
+
+  .button-group {
+    display: none;
+  }
+
+  .mail-button-container {
+    /* background-color: blue; */
+
+    /* background-color: magenta; */
+    width: 140%;
+  }
+  .button-email {
+    font-size-adjust: inherit;
+    margin: 10px;
+  }
+  .button-join {
+    font-size-adjust: inherit;
+  }
+  .container {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons span img {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-conatiner-left {
+    /* background-color: rgba(255, 166, 0, 0.432); */
+    height: 40rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  [alt="person-hero-iamge"] {
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    height: 20rem;
+    width: 17rem;
+  }
+  .square {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    height: 20rem;
+    width: 17rem;
+  }
+  .square img {
+    height: 20rem;
+    width: 17rem;
+  }
+  .list {
+    overflow-y: scroll;
+  }
+  .hero-container-right {
+    /* background-color: magenta; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .star-globe {
+    display: none;
+  }
+
+  .hero-description {
+    /* background-color: pink; */
+    width: 100%;
+  }
+  .hero-heading {
+    width: 100%;
+    /* background-color: magenta; */
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .navbar-container {
+    /* background-color: orange; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    /* overflow: scroll; */
+  }
+  [alt="brand-logo"] {
+    height: 100%;
+    /* background-color: red; */
+  }
+  .nav-logo-container {
+    height: 100%;
+    /* background-color: blue; */
+  }
+  .list {
+    /* background-color: magenta; */
+    overflow-x: scroll;
+    width: 200px;
+    margin-left: 50px;
+  }
+  .list-item {
+    /* margin-right: 10px; */
+    font-size: 15px;
+  }
+  .button-group {
+    display: none;
+  }
+
+  .mail-button-container {
+    /* background-color: blue; */
+
+    /* background-color: magenta; */
+    width: 140%;
+  }
+  .button-email {
+    font-size-adjust: inherit;
+    margin: 10px;
+  }
+  .button-join {
+    font-size-adjust: inherit;
+  }
+  .container {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons span img {
+    margin: 10px;
+  }
 }

@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
     <!-- CSS File -->
     <link rel="stylesheet" href="/style.css" />
     <!-- Font Orbiton -->
@@ -21,14 +24,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Whats-Trend</title>
   </head>
   <body>
     <div class="container">
       <!-- Navbar Section -->
       <section aria-label="navbar">
         <nav class="navbar-container">
-          <div>
+          <div class="nav-logo-container">
             <img src="/assets/Logo.png" alt="brand-logo" />
           </div>
           <div>
@@ -66,24 +69,23 @@
       <!-- Hero Banner Section -->
       <section aria-label="banner">
         <div class="hero-container">
-          <!-- --------------- -->
-          <!-- Patterns -->
-          <!-- ---------------- -->
-          <span class="square">
-            <img src="/assets/squares.png" alt="square-pattern" />
-          </span>
-          <!-- Star -->
-          <span class="star">
-            <img src="/assets/start.png" alt="start-pattern" />
-          </span>
-          <!-- Globe -->
-          <span class="globe">
-            <img src="/assets/globe.png" alt="globe-pattern" />
-          </span>
-          <div>
-            <img src="/assets/Image.png" alt="person-hero-iamge" />
+          <div class="hero-conatiner-left">
+            <!-- --------------- -->
+            <!-- Patterns -->
+            <!-- ---------------- -->
+            <div class="square">
+              <img src="/assets/squares.png" alt="square-pattern" />
+            </div>
+
+            <div>
+              <img src="/assets/Image.png" alt="person-hero-iamge" />
+            </div>
           </div>
           <div class="hero-container-right">
+            <div class="star-globe">
+              <img src="./assets/start.png" alt="" class="star" />
+              <img src="./assets/globe.png" alt="" class="globe" />
+            </div>
             <h1 class="hero-heading">What’s Trend in 2025 ?</h1>
             <p class="hero-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -91,7 +93,7 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut
             </p>
-            <div>
+            <div class="mail-button-container">
               <button class="button-email">Email Address</button>
               <button class="button-join">JOIN NOW</button>
             </div>
